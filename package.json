@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "Jalali calendar plugin for dayjs",
   "main": "jalali-dayjs.min.js",
-  "repository": "https://github.com/torbatian/jalali-dayjs.git",
+  "repository": "https://github.com/siolishe/jalali-dayjs.git",
   "author": "Kasra Soleymani <siolihe@gmail.com>",
   "license": "MIT",
   "scripts": {
