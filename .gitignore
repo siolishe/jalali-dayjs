@@ -61,5 +61,5 @@ typings/
 .next
 
 .vscode
-
+.idea
 jalali-dayjs.min.js
