@@ -1,0 +1,52 @@
+{
+  "name": "jalali-dayjs",
+  "version": "0.1",
+  "description": "Jalali calendar plugin for dayjs",
+  "main": "jalali-dayjs.min.js",
+  "repository": "https://github.com/torbatian/jalali-dayjs.git",
+  "author": "Kasra Soleymani <siolihe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "dayjs",
+    "jalali",
+    "jalaali",
+    "shamsi",
+    "khorshidi"
+  ],
+  "private": false,
+  "dependencies": {
+    "jalaali-js": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/node": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "dayjs": "1.10.4",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^24.1.5",
+    "jest": "^26.6.3",
+    "luxon": "^1.3.0",
+    "mockdate": "^3.0.2",
+    "rollup": "^2.39.1",
+    "rollup-plugin-babel": "^4.0.0-beta.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "jest": {
+    "roots": [
+      "test"
+    ],
+    "testRegex": "test/(.*?/)?.*test.js$"
+  }
+}
